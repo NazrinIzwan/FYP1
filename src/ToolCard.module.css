@@ -1,0 +1,31 @@
+.tool-card {
+  background-color: #fff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Card shadow */
+  padding: 16px; /* Padding inside the card */
+  text-align: center; /* Centered text */
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+  cursor: pointer; /* Cursor effect on hover */
+}
+
+.tool-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2); /* Darker shadow on hover */
+}
+
+.tool-icon {
+  /* Add your styles for the icon here */
+  margin-bottom: 8px; /* Space below the icon */
+}
+
+.tool-title {
+  color: #333; /* Title color */
+  margin-bottom: 4px; /* Space below the title */
+  font-size: 18px; /* Title font size */
+  font-weight: bold; /* Title font weight */
+}
+
+.tool-description {
+  color: #666; /* Description color */
+  font-size: 14px; /* Description font size */
+}
